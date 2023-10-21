@@ -17,4 +17,4 @@ cd dwm
 sudo make install
 cd ..
 
-startx
+echo "Restart dwm for all changes to apply."
