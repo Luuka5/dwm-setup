@@ -13,6 +13,7 @@ mkdir ~/t/.fonts
 cp -a fonts/. ~/t/.fonts/
 
 # recompile dwm
+sudo cp config.h dwm/config.h
 cd dwm
 sudo make install
 cd ..
