@@ -12,4 +12,9 @@ cp -a config/. ~/t/.config/
 mkdir ~/t/.fonts
 cp -a fonts/. ~/t/.fonts/
 
+# recompile dwm
+cd dwm
+sudo make install
+cd ..
+
 startx

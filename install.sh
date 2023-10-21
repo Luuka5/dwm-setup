@@ -6,7 +6,7 @@ yay -Syu neovim picom dmenu alacritty firefox xorg
 git clone https://git.suckless.org/dwm
 cd dwm
 git apply ../dwm-masterpatch-6.4.diff
-sudo make clean install
+sudo make install
 cd ..
 
 # install dwmbar
