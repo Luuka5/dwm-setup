@@ -6,13 +6,13 @@ static const Gap default_gap        = {.isgap = 1, .realgap = 24, .gappx = 24};
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "WorkSans:size=12", "UbuntuNerdFontMedium:size=12", "monospace:size=12" };
+static const char *fonts[]          = { "PoppinsMedium:size=12", "UbuntuNerdFontMedium:size=12", "monospace:size=12" };
 static const char dmenufont[]       = "monospace:size=12";
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#222222";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#771e1e";
+static const char col_cyan[]        = "#dbaa48";
 //static const char col_cyan[]        = "#031839";
 static const unsigned int baralpha = 0x00;
 static const unsigned int borderalpha = 0x00;
