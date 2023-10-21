@@ -10,7 +10,7 @@ dwmbar &
 picom &
 
 # set bg
-feh ~/setup/wallpapers/redPlanetMonitor2.png --bg-fill ~/setup/wallpapers/redPlanet.jpg --bg-fill
+feh ~/setup/wallpapers/redPlanetMonitor2.png --bg-fill ~/setup/wallpapers/redPlanet.png --bg-fill
 
 # Set wacom tablet to main monitor
 xsetwacom --set "Wacom Intuos BT S Pen stylus" MapToOutput HEAD-1
