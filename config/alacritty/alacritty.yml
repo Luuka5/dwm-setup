@@ -1,0 +1,48 @@
+custom_cursor_colors: true
+
+# Font configuration
+font:
+  # Point size
+  size: 9.0
+  normal:
+    family: Noto Sans Mono
+    style: Regular
+
+window:
+  opacity: 0.6
+  padding:
+    x: 5
+    y: 5
+
+# Colors (Alabaster Dark)
+colors:
+  name: Alabaster (dark)
+  author: tonsky
+  primary:
+    background: "#050505"
+    #background: "#0F0F0F"
+    foreground: "#CECECE"
+  cursor:
+    text: "#0E1415"
+    cursor: "#CECECE"
+  normal:
+    black: "#0E1415"
+    red: "#e25d56"
+    green: "#73ca50"
+    yellow: "#e9bf57"
+    blue: "#4a88e4"
+    magenta: "#915caf"
+    cyan: "#23acdd"
+    white: "#f0f0f0"
+  bright:
+    black: "#777777"
+    red: "#f36868"
+    green: "#88db3f"
+    yellow: "#f0bf7a"
+    blue: "#6f8fdb"
+    magenta: "#e987e9"
+    cyan: "#4ac9e2"
+    white: "#FFFFFF"
+
+key_bindings:
+  - { key: Back, mods: Control, chars: "\x1b\x7f" }
