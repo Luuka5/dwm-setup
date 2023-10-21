@@ -10,13 +10,13 @@ dwmbar &
 picom &
 
 # set bg
-feh ~/setup/monitor2v2single.png --bg-fill ~/Downloads/zoltan-tasi-HQPJEEjHqSE-unsplash.jpg --bg-fill
+feh ~/setup/wallpapers/redPlanetBlankcSpace.png --bg-fill ~/setup/wallpapers/redPlanet.jpg.jpg --bg-fill
 
 # Set wacom tablet to main monitor
 xsetwacom --set "Wacom Intuos BT S Pen stylus" MapToOutput HEAD-1
 xsetwacom --set "Wacom Intuos BT S Pad pad" button 1 "key PgDn"
 xsetwacom --set "Wacom Intuos BT S Pad pad" button 3 "key PgUp"
-~/setup/wacomSetup.sh
+~/setup/scripts/wacomSetup.sh
 
 # Start DWM
 redshift -O3500; xset r rate 300 50; exec dwm
