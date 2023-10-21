@@ -1,16 +1,16 @@
 theme=${1:-spacerice}
 
 # clone dotfiles
-cp -a dotfiles/. ~/t/
+cp -a dotfiles/. ~/
 
 # clone config
-mkdir ~/t/.config
-cp -a config/. ~/t/.config/
-cp -a config/. ~/t/.config/
+mkdir ~/.config
+cp -a config/. ~/.config/
+cp -a config/. ~/.config/
 
 # clone dotfiles
-mkdir ~/t/.fonts
-cp -a fonts/. ~/t/.fonts/
+mkdir ~/.fonts
+cp -a fonts/. ~/.fonts/
 
 # recompile dwm
 cd dwm
