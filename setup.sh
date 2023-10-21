@@ -16,5 +16,3 @@ cp -a fonts/. ~/t/.fonts/
 cd dwm
 sudo make install
 cd ..
-
-startx
