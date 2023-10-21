@@ -12,6 +12,9 @@ cp -a config/. ~/.config/
 mkdir ~/.fonts
 cp -a fonts/. ~/.fonts/
 
+# copy firefox userchrome
+cp userChrome.css ~/.mozilla/firefox/93ike1gy.default-release/chrome/userChrome.css
+
 # recompile dwm
 cp config.h dwm/
 cd dwm
