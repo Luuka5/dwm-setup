@@ -16,7 +16,7 @@ cp -a fonts/. ~/.fonts/
 cp userChrome.css ~/.mozilla/firefox/93ike1gy.default-release/chrome/userChrome.css
 
 # set vscode theme
-sudo ./vscodetheme.sh
+bash vscodetheme.sh
 
 # recompile dwm
 cp config.h dwm/
