@@ -1,6 +1,6 @@
 
 # install useful apps with yay
-yay -Syu nvim picom dmenu alacritty firefox xorg
+yay -Syu neovim picom dmenu alacritty firefox xorg
 
 # install dwm
 git clone https://git.suckless.org/dwm
@@ -15,7 +15,12 @@ sudo bash install.sh
 cd ..
 
 # clone dotfiles
-cp -r dotfiles ~/
+cp -a dotfiles/. ~/t/
 
 # clone config
-cp -r config ~/.config
+mkdir ~/t/.config
+cp -a config/. ~/t/.config/
+
+# clone dotfiles
+mkdir ~/t/.fonts
+cp -a fonts/. ~/t/.fonts/
