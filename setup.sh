@@ -16,3 +16,5 @@ cp -a fonts/. ~/t/.fonts/
 cd dwm
 sudo make install
 cd ..
+
+echo "Restart dwm for all changes to apply."
