@@ -10,7 +10,7 @@ dwmbar &
 picom &
 
 # set bg
-feh ~/setup/wallpapers/redPlanetMonitor2.png --bg-fill ~/setup/wallpapers/redPlanet.jpg.jpg --bg-fill
+feh ~/setup/wallpapers/redPlanetMonitor2.png --bg-fill ~/setup/wallpapers/redPlanet.jpg --bg-fill
 # feh ~/setup/wallpapers/blueMountainsMonitor2.png --bg-fill ~/setup/wallpapers/blueMountains.jpg.jpg --bg-fill
 
 # Set wacom tablet to main monitor
