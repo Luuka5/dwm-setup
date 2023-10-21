@@ -6,7 +6,6 @@ cp -a dotfiles/. ~/
 # clone config
 mkdir ~/.config
 cp -a config/. ~/.config/
-cp -a config/. ~/.config/
 
 # clone dotfiles
 mkdir ~/.fonts
