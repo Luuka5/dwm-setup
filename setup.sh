@@ -6,7 +6,6 @@ cp -a dotfiles/. ~/
 # clone config
 mkdir ~/.config
 cp -a config/. ~/.config/
-cp -a config/. ~/.config/
 
 # clone dotfiles
 mkdir ~/.fonts
@@ -20,7 +19,7 @@ echo "Change setup.sh firefox path to match yours and run setup again if not wor
 bash vscodetheme.sh
 
 # recompile dwm
-cp config.h dwm/
+sudo cp config.h dwm/
 cd dwm
 sudo make install
 cd ..
