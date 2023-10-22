@@ -10,6 +10,7 @@ dwmbar &
 picom &
 
 # set bg
+feh ~/setup/wallpapers/cityMonitor2.png --bg-fill ~/setup/wallpapers/city.png --bg-fill
 
 # Set wacom tablet to main monitor
 xsetwacom --set "Wacom Intuos BT S Pen stylus" MapToOutput HEAD-1

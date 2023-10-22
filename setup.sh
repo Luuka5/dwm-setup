@@ -18,6 +18,9 @@ cp userChrome.css ~/.mozilla/firefox/93ike1gy.default-release/chrome/userChrome.
 # set vscode theme
 bash vscodetheme.sh
 
+# Ask for sudo
+echo "! Please enter your password to install dwm"
+
 # recompile dwm
 cp config.h dwm/
 cd dwm

@@ -9,40 +9,39 @@ font:
     style: Regular
 
 window:
-  opacity: 0.6
+  opacity: 0.9
   padding:
     x: 5
     y: 5
 
-# Colors (Alabaster Dark)
+# Colors (Ayu Dark)
 colors:
-  name: Alabaster (dark)
-  author: tonsky
+  # Default colors
   primary:
-    background: "#050505"
-    #background: "#0F0F0F"
-    foreground: "#CECECE"
-  cursor:
-    text: "#0E1415"
-    cursor: "#CECECE"
+    background: "0x0f1419"
+    foreground: "0xe6e1cf"
+
+  # Normal colors
   normal:
-    black: "#0E1415"
-    red: "#e25d56"
-    green: "#73ca50"
-    yellow: "#e9bf57"
-    blue: "#4a88e4"
-    magenta: "#915caf"
-    cyan: "#23acdd"
-    white: "#f0f0f0"
+    black: "0x000000"
+    red: "0xf34a4a"
+    green: "0xbae67e"
+    yellow: "0xffee99"
+    blue: "0x73d0ff"
+    magenta: "0xd4bfff"
+    cyan: "0x83CEC6"
+    white: "0xf2f2f2"
+
+  # Bright colors
   bright:
-    black: "#777777"
-    red: "#f36868"
-    green: "#88db3f"
-    yellow: "#f0bf7a"
-    blue: "#6f8fdb"
-    magenta: "#e987e9"
-    cyan: "#4ac9e2"
-    white: "#FFFFFF"
+    black: "0x737d87"
+    red: "0xff3333"
+    green: "0xc2d94c"
+    yellow: "0xe7c547"
+    blue: "0x59c2ff"
+    magenta: "0xb77ee0"
+    cyan: "0x5ccfe6"
+    white: "0xffffff"
 
 key_bindings:
   - { key: Back, mods: Control, chars: "\x1b\x7f" }
