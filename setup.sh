@@ -1,4 +1,4 @@
-git apply device.diff
+git apply device.diff || echo "No device.diff, continuing without it"
 
 # clone dotfiles
 cp -a dotfiles/. ~/
@@ -26,4 +26,4 @@ sudo make install
 cd ..
 
 echo "Restart dwm for all changes to apply."
-git apply device.diff -R
+git apply device.diff -R || echo "No device.diff, continuing without it"
