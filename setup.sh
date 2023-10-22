@@ -1,4 +1,4 @@
-theme=${1:-spacerice}
+git apply device.diff || echo "No device.diff, continuing without it"
 
 # clone dotfiles
 cp -a dotfiles/. ~/
@@ -13,7 +13,8 @@ mkdir ~/.fonts
 cp -a fonts/. ~/.fonts/
 
 # copy firefox userchrome
-cp userChrome.css ~/.mozilla/firefox/93ike1gy.default-release/chrome/userChrome.css
+cp userChrome.css ~/.mozilla/firefox/zax24kz0.default-release/chrome/userChrome.css
+echo "Change setup.sh firefox path to match yours and run setup again if not working."
 
 # set vscode theme
 bash vscodetheme.sh
@@ -27,3 +28,4 @@ cd ..
 echo "Make sure you have "Community Material Theme Darker High Contrast" vscode theme installed."
 echo "Remember to switch on the firefox default darkmode for the theme to work."
 echo "Restart dwm for all changes to apply."
+git apply device.diff -R || echo "No device.diff, continuing without it"
