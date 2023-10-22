@@ -24,4 +24,6 @@ cd dwm
 sudo make install
 cd ..
 
+echo "Make sure you have "Community Material Theme Darker High Contrast" vscode theme installed."
+echo "Remember to switch on the firefox default darkmode for the theme to work."
 echo "Restart dwm for all changes to apply."
