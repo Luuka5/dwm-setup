@@ -1,4 +1,4 @@
-theme=${1:-spacerice}
+git apply device.diff || echo "No device.diff, continuing without it"
 
 # clone dotfiles
 cp -a dotfiles/. ~/
@@ -6,14 +6,14 @@ cp -a dotfiles/. ~/
 # clone config
 mkdir ~/.config
 cp -a config/. ~/.config/
-cp -a config/. ~/.config/
 
 # clone dotfiles
 mkdir ~/.fonts
 cp -a fonts/. ~/.fonts/
 
 # copy firefox userchrome
-cp userChrome.css ~/.mozilla/firefox/93ike1gy.default-release/chrome/userChrome.css
+cp userChrome.css ~/.mozilla/firefox/zax24kz0.default-release/chrome/userChrome.css
+echo "Change setup.sh firefox path to match yours and run setup again if not working."
 
 # set vscode theme
 bash vscodetheme.sh
@@ -22,7 +22,7 @@ bash vscodetheme.sh
 echo "! Enter sudo password to install dwm"
 
 # recompile dwm
-cp config.h dwm/
+sudo cp config.h dwm/
 cd dwm
 sudo make install
 cd ..
@@ -31,3 +31,4 @@ echo
 echo "! Make sure you have "Nord Deep" vscode theme installed."
 echo "! Remember to switch on the 'blue' theme by gon in firefox."
 echo "! Restart dwm for all changes to apply."
+git apply device.diff -R || echo "No device.diff, continuing without it"
