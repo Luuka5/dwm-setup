@@ -3,7 +3,7 @@ custom_cursor_colors: true
 # Font configuration
 font:
   # Point size
-  size: 9.0
+  size: 5.0
   normal:
     family: Noto Sans Mono
     style: Regular
@@ -11,8 +11,8 @@ font:
 window:
   opacity: 0.6
   padding:
-    x: 5
-    y: 5
+    x: 3
+    y: 3
 
 # Colors (Alabaster Dark)
 colors:
