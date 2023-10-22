@@ -20,3 +20,4 @@ xsetwacom --set "Wacom Intuos BT S Pad pad" button 3 "key PgUp"
 
 # Start DWM
 redshift -O3500; xset r rate 300 50; exec dwm
+mainmonitor
