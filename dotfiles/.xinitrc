@@ -18,6 +18,9 @@ xsetwacom --set "Wacom Intuos BT S Pad pad" button 1 "key PgDn"
 xsetwacom --set "Wacom Intuos BT S Pad pad" button 3 "key PgUp"
 ~/setup/scripts/wacomSetup.sh
 
+# Restart dwm with MOD+SHIFT+Q. To kill dwm use killall dwm
+while type dwm >/dev/null ; do dwm && continue || break ;done
+
 # Start DWM
 redshift -O3500; xset r rate 300 50; exec dwm
 mainmonitor
