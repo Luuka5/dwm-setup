@@ -1,6 +1,4 @@
-#!/bin/bash
 
-# Prints out battery percentage
 
 CHARGING_ICON=' '
 WARNING_ICON=' '
@@ -40,4 +38,35 @@ get_battery()
 	echo "$ICON$BAT_ICON  $capacity%"
 }
 
-get_battery
+# dependency: curl
+get_weather()
+{
+	curl -s v2.wttr.in | grep -e "Weather" | sed -n 2p | sed s/Weather://g | sed 's/,//g' | sed 's/+//g' | sed 's/°C.*/°C/' | sed 's/.*m//'
+}
+
+# dependency: wavemon
+get_wlan()
+{
+    level=$(iwconfig | grep -o -P '(?<=level=-).*(?=dBm)')
+    if [[ $level > 50 ]]; then
+        echo "Good"
+    elif [[ $level > 30 ]]; then
+        echo bad
+    elif [[ $level > 10 ]]; then
+        echo worst
+    fi
+}
+
+get_time()
+{
+    date +"%H.%M"
+}
+
+while true; do
+    s="    "
+    
+    status="$(get_weather)$s$(get_wlan)$s$(get_battery)$s$(get_time)"
+
+	xsetroot -name "$status"
+	sleep 2
+done

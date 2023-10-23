@@ -12,6 +12,7 @@ sudo make install
 cd ..
 
 # install dwmbar
+git clone https://git.suckless.org/dwm
 cd dwmbar
 sudo bash install.sh
 cd ..
