@@ -4,7 +4,7 @@ xrandr --output HDMI-0 --rotate left --auto
 xrandr --output DP-0 --pos 1080x340 --rate 144
 
 # DWM status bar
-dwmbar &
+~/setup/scripts/bar.sh
 
 # Start picom compositor
 picom &
