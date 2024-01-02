@@ -123,3 +123,7 @@ export JAVA_HOME=/opt/android-studio/jbr
 # Fly.io ctl
 export FLYCTL_INSTALL="/home/touko/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
