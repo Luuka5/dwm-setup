@@ -1,4 +1,3 @@
-#git apply device.diff || echo "No device.diff, continuing without it"
 
 # clone dotfiles
 #cp -a dotfiles/. ~/
