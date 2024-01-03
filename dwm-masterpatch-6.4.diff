@@ -1459,7 +1459,7 @@ index e5efb6a..d9924c5 100644
 +
 +  /* option to randomize gap to prevent burn in with oled screens */
 +  srand(time(NULL));
-+  int gap = m->gappx + (rand() % rand_gap);
++  int gap = default_gap.gappx + (rand() % rand_gap);
 +  m->gappx = gap;
 +  m->gap->gappx = gap;
 +

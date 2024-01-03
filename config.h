@@ -2,8 +2,8 @@
 
 /* appearance */
 static const unsigned int borderpx = 1; /* border pixel of windows */
-static const int rand_gap = 8; /* randomize gap to prevent oled burn in */
-static const Gap default_gap = {.isgap = 1, .realgap = 6, .gappx = 6};
+static const int rand_gap = 10; /* randomize gap to prevent oled burn in */
+static const Gap default_gap = {.isgap = 1, .realgap = 6, .gappx = 10};
 static const unsigned int snap = 32; /* snap pixel */
 static const int showbar = 0;        /* 0 means no bar */
 static const int topbar = 1;         /* 0 means bottom bar */
@@ -15,7 +15,7 @@ static const char col_gray1[] = "#000000";
 static const char col_gray2[] = "#222222";
 static const char col_gray3[] = "#bbbbbb";
 static const char col_gray4[] = "#eeeeee";
-static const char col_cyan[] = "#c41010";
+static const char col_cyan[] = "#b6442b";
 
 static const unsigned int baralpha = 0x00;
 static const unsigned int borderalpha = 0x00;
