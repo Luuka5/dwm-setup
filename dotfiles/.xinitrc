@@ -6,7 +6,7 @@ xrandr --output DP-0 --mode 1920x1080 --pos 1080x340 --rate 144
 dwmbar &
 
 # Start picom compositor
-picom &
+#picom &
 
 # set bg
 feh ~/setupV2/wallpapers/secondmonitor.jpg --bg-fill ~/setupV2/wallpapers/primarymonitor.jpg --bg-fill 
