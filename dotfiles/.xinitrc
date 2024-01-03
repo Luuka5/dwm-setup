@@ -9,8 +9,8 @@ dwmbar &
 picom &
 
 # set bg
-feh ~/setupV2/wallpapers/secondmonitor.jpg --bg-fill ~/setupV2/wallpapers/primarymonitor.jpg --bg-fill 
-#feh ~/Downloads/green-wallpaper.jpg --bg-fill ~/Downloads/green-wallpaper-main.jpg --bg-fill 
+#feh ~/setupV2/wallpapers/secondmonitor.jpg --bg-fill ~/setupV2/wallpapers/primarymonitor.jpg --bg-fill 
+exec ~/setup/scripts/wallpaperanimations.sh
 
 # Set wacom tablet to main monitor
 xsetwacom --set "Wacom Intuos BT S Pen stylus" MapToOutput HEAD-1
