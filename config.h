@@ -2,6 +2,7 @@
 
 /* appearance */
 static const unsigned int borderpx = 1; /* border pixel of windows */
+static const int rand_gap = 8; /* randomize gap to prevent oled burn in */
 static const Gap default_gap = {.isgap = 1, .realgap = 6, .gappx = 6};
 static const unsigned int snap = 32; /* snap pixel */
 static const int showbar = 0;        /* 0 means no bar */
