@@ -16,4 +16,10 @@ cd dwmbar
 sudo bash install.sh
 cd ..
 
+# install zunder zsh
+git clone https://github.com/warbacon/zunder-zsh.git
+cd zunder-zsh
+sudo bash install.sh
+cd ..
+
 bash setup.sh

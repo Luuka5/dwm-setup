@@ -1,29 +1,29 @@
 # Default colors
 [colors.primary]
-background = '#161616'
+background = '#000000'
 foreground = '#f2f4f8'
 
 # Normal colors
 [colors.normal]
-black   = '#282828'
-red     = '#ee5396'
-green   = '#25be6a'
-yellow  = '#08bdba'
-blue    = '#78a9ff'
-magenta = '#be95ff'
-cyan    = '#33b1ff'
-white   = '#dfdfe0'
+black   = '#AF5F5F'
+red     = '#FF5F5F'
+green   = '#5FAF5F'
+yellow  = '#AF875F'
+blue    = '#5F87AF'
+magenta = '#D787D7'
+cyan    = '#5FAFAF'
+white   = '#C6C6C6'
 
 # Bright colors
 [colors.bright]
-black   = '#484848'
-red     = '#f16da6'
-green   = '#46c880'
-yellow  = '#2dc7c4'
-blue    = '#8cb6ff'
-magenta = '#c8a5ff'
-cyan    = '#52bdff'
-white   = '#e4e4e5'
+black   = '#282828'
+red     = '#FF5F5F'
+green   = '#5FD75F'
+yellow  = '#FFD787'
+blue    = '#5FAFFF'
+magenta = '#FF87FF'
+cyan    = '#5FD7D7'
+white   = '#FFFFFF'
 
 [font]
 size = 9.0
@@ -50,7 +50,7 @@ key = "Back"
 mods = "Control"
 
 [window]
-opacity = 0.9
+opacity = 0.85
 
 [window.padding]
 x = 5
