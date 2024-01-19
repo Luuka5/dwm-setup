@@ -18,9 +18,9 @@ get_battery()
 {
 	# The vast majority of people only use one battery.
 
-	if [ -d /sys/class/power_supply/BAT0 ]; then
-		capacity=$(cat /sys/class/power_supply/BAT0/capacity)
-		charging=$(cat /sys/class/power_supply/BAT0/status)
+	if [ -d /sys/class/power_supply/BATT ]; then
+		capacity=$(cat /sys/class/power_supply/BATT/capacity)
+		charging=$(cat /sys/class/power_supply/BATT/status)
 		if [[ "$charging" == "Charging" ]]; then
 			ICON="$CHARGING_ICON"
 		elif [[ $capacity -le 25 ]]; then
